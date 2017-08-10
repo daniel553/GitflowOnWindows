@@ -1,7 +1,13 @@
 # GitflowOnWindows
 This is a guide to install GitFlow on Windows
 
-Please use a PowerShell as Administrator to follow the above:
+Please use a PowerShell or a CMD as Administrator to follow the above:
+
+## Previous steps ##
+Install Git for Windows https://git-scm.com/download/win
+
+Next, Next, Next and choose your own options
+
 
 ## 1. Clone Gitflow
 Clone the original repository for gitflow:
@@ -12,9 +18,11 @@ https://github.com/nvie/gitflow
 ```
 
 ## 2. Copy libiconv2.dll, libintl3.dll and getopt.exe to Git 
-Copy libiconv2.dll and libintl3.dll and getopt.exe inside GIT installation folder bin
+Copy **libiconv2.dll** and **libintl3.dll** and **getopt.exe** [from here](https://github.com/daniel553/GitflowOnWindows/tree/master/Files) inside **GIT** installation folder /bin
 usually in: c:\Program Files\git\bin 
+
 notice Windows x64 or x86 installation folder.
+
 (Do not copy 'File' folder)
 
 ## 3. Installing gitflow
